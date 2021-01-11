@@ -1,0 +1,177 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+@font-face {
+    font-family: 'Catamaran';
+    src: url('../fonts/Catamaran/catamaran-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../fonts/Catamaran/catamaran-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/lato-light-webfont.woff2') format('woff2'),
+         url('..fonts/Lato/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli/muli-webfont.woff2') format('woff2'),
+         url('../fonts/Muli/muli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'simple-line-icons';
+    src: url('../fonts/Simple-Line-Icons/Simple-Line-Icons.eot?v=2.4.0');
+    src: url('../fonts/Simple-Line-Icons/Simple-Line-Icons.eot?v=2.4.0#iefix') format('embedded-opentype'), url('../fonts/Simple-Line-Icons/Simple-Line-Icons.woff2?v=2.4.0') format('woff2'), url('../fonts/Simple-Line-Icons/Simple-Line-Icons.ttf?v=2.4.0') format('truetype'), url('../fonts/Simple-Line-Icons/Simple-Line-Icons.woff?v=2.4.0') format('woff'), url('../fonts/Simple-Line-Icons/Simple-Line-Icons.svg?v=2.4.0#simple-line-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h1, h4 {
+    font-family: Catamaran, Helvetica, Arial, sans-serif;
+}
+
+button, .navbar>a {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+p, footer {
+    font-family: Muli, Helvetica, Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+nav>.start-bootstrap {
+    color: #fdcc52;
+}
+
+.start-bootstrap:hover {
+    color: #ffffff;
+}
+
+.navbar {
+    color: #bdbdbd;
+}
+
+.navbar:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar>div>ul>li>a {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+.navbar>div>ul>li>a:hover {
+    color:#ffffff;
+}
+
+.navbar-toggler {
+    border:#bdbdbd solid 2px;
+    color: #bdbdbd;
+}
+
+.navbar-toggler:hover {
+    border:#ffffff solid 2px;
+    color: #ffffff;
+}
+
+.menubar-white-bg>.navbar>.navbar-toggler {
+    border:#666666 solid 2px;
+    color: #666666;
+}
+
+.menubar-white-bg>.navbar>.navbar-toggler:hover {
+    border:#fdcc52 solid 2px;
+    color: #fdcc52;
+}
+
+.menubar-white-bg {
+    background-color: #ffffff;
+}
+
+.menubar-white-bg>.navbar>div>ul>li>a {
+    color: #666666;
+}
+
+.menubar-white-bg>.navbar>p:hover, .menubar-white-bg>.navbar>div>ul>li>a:hover, div>.footer-link:hover {
+    color:#fdcc52;
+}
+
+body {
+    background-image: url('/img/bg-pattern.png'), linear-gradient(90deg, #DA2431, #7A4397);
+}
+
+.mobile-container {
+    position: relative;
+}
+
+.demo-screen {
+    position: absolute;
+    width: 80%;
+}
+
+.start-now {
+    transition: background-color 300ms, border-color 300ms;
+}
+
+.start-now:hover {
+    background-color: #fdcc52;
+    border-color: #fdcc52;
+}
+
+.jumbotron {
+    background-color: #fdcc52;
+}
+
+.line {
+    color: #dddddd;
+}
+
+.simple-line-icon {
+    background: linear-gradient(90deg, #DA2431, #9B3871);
+    background-clip: text;
+    color: transparent;    
+}
+
+.cta {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/img/bg-cta.jpg');
+    background-size: cover;
+    height: 75vh;
+}
+
+.bg-twitter {
+    color: #1DA1F3;
+}
+
+.bg-facebook {
+    color:#3B5999;
+}
+
+.bg-google {
+    color:#DD4C39;
+}
+
+.fa-stack {
+    opacity: .9;
+}
+
+.fa-stack:hover {
+    opacity: 1;
+}
+
+footer {
+    background-color: #222222;
+}
+
+.footer-link {
+    color: #6c757d;
+}
